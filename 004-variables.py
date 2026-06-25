@@ -48,8 +48,8 @@ l=bool(0)           # convert int to bool
 m=float("3.14")     # convert str to float
 n=complex(2,3)      # convert int to complex
 o=complex("1+2j")   # convert str to complex
-q=bin(10)           # convert int to binary
-r=bool('0')         # convert str to bool, any non-empty string is True
+p=bin(10)           # convert int to binary
+q=bool('0')         # convert str to bool, any non-empty string is True
 
 print("f:", f, "Type:", type(f))
 print("g:", g, "Type:", type(g))
@@ -61,8 +61,8 @@ print("l:", l, "Type:", type(l))
 print("m:", m, "Type:", type(m))
 print("n:", n, "Type:", type(n))
 print("o:", o, "Type:", type(o))
+print("p:", p, "Type:", type(p))
 print("q:", q, "Type:", type(q))
-print("r:", r, "Type:", type(r))
 
 print("real part of o:", o.real, "Type:", type(o.real))
 print("imaginary part of o:", o.imag, "Type:", type(o.imag))
