@@ -38,13 +38,13 @@ x = [1,2,3,4,5]
 # copy list x to y
 y = x
 
-# will print 1 because we make an shallow copy y from the list of x
+# will print 1 because we make a shallow copy y from the list of x
 print(y[0])
 
 # copy list y to z
 z = y
 
-# will print 2 because we make an shallow copy z from the list of y
+# will print 2 because we make a shallow copy z from the list of y
 print(z[1])
 
 #==================================================================================================

@@ -13,6 +13,7 @@ print(x)
 
 u[2] = 5
 
+# will print [1, 2, 3, 4, 5] because we make a deep copy of u to x, so when we change the value of the third item in u to 5, it will not affect the value of the third item in x.
 print(x, u)
 
 y.extend(u)
